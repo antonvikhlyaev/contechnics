@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contechnics - аренда техники</title>
+</head>
+<body>
+  <header class="page-header">
+    <a class="page-header__logo">
+      <img class="page-header__logo-image" src="img/logo.svg" width="170" height="39" alt="Contechnics - аренда техники">
+    </a>
+    <nav class="main-nav">
+      <ul class="main-nav__list site-nav">
+        <li class="site-nav__item">
+          <a class="site-nav__link" href="#">Каталог</a>
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link" href="#">Журнал</a>
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link" href="#">Бизнесу</a>
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link" href="#">Маркет</a>
+        </li>
+      </ul>
+      <ul class="main-nav__list user-nav">
+        <li class="user-nav__item">
+          <a class="user-nav__link" href="#">Вход</a>
+        </li>
+        <li class="user-nav__item">
+          <a class="user-nav__link" href="#">Регистрация</a>
+        </li>
+        <li class="user-nav__item">
+          <a class="user-nav__link" href="#">
+            <span class="visually-hidden">Поиск</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="page-content">
+    <h1 class="visually-hidden">Contechnics - аренда техники </h1>
+    <section class="search">
+      <h2 class="visually-hidden">Поиск техники на сайте</h2>
+      <ul class="search__tabs tabs">
+        <li class="search__tab tabs__item">
+          <a class="search__link search__link--rent tabs__link" href="#">Аренда</a>
+        </li>
+        <li class="search__tab tabs__item">
+          <a class="search__link search__link--sale tabs__link" href="#">Продажа</a>
+        </li>
+        <li class="search__tab tabs__item">
+          <a class="search__link search__link--bids tabs__link" href="#">Заявки</a>
+        </li>
+      </ul>
+      <div class="search__content tabs__content">
+        <form class="search__form" action="#" method="POST">
+          <p class="search__field">
+            <label class="visually-hidden" for="search-rent-key">Ключевое слово</label>
+            <input class="search__input" id="search-rent-key" type="text" name="search-rent-key" placeholder="Ключевое слово">
+          </p>
+          <p class="search__field">
+            <label class="visually-hidden" for="search-rent-category">Категория</label>
+            <select class="search__select" name="search-rent-category" id="search-rent-category">
+              <option value="all" selected>Категория</option>
+              <option value="pile-hammers">Сваебойные молота</option>
+              <option value="pile-hammers">Сваебойные молота</option>
+              <option value="pile-hammers">Сваебойные молота</option>
+              <option value="pile-hammers">Сваебойные молота</option>
+            </select>
+          </p>
+          <p class="search__field">
+            <label class="visually-hidden" for="search-rent-region">Регион</label>
+            <select class="search__select" name="search-rent-region" id="search-rent-region">
+              <option value="all" selected>Регион</option>
+              <option value="tatarstan">Республика Татарстан</option>
+              <option value="bashkortostan">Республика Башкортостан</option>
+              <option value="moscow">Москва</option>
+            </select>
+          </p>
+          <p class="search__field">
+            <label class="visually-hidden" for="search-rent-radius">Расширение радиуса поиска</label>
+            <select class="search__select" name="search-rent-radius" id="search-rent-radius">
+              <option value="100" selected>+100</option>
+              <option value="200">+200</option>
+              <option value="300">+300</option>
+              <option value="400">+400</option>
+            </select>
+          </p>
+          <button class="search__button button button--filled">Найти</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+
+  </footer>
+</body>
+</html>
