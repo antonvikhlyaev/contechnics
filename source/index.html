@@ -279,7 +279,7 @@
           <a class="journal__link journal__link--posts tabs__link" href="#">Статьи</a>
         </li>
       </ul>
-      <div class="journal__content">
+      <div class="journal__content tabs__content">
         <ul class="journal__list">
           <li class="journal__item journal__item--wide">
             <img class="journal__image" src="img/journal/1-wide.jpg" alt="">
@@ -317,6 +317,7 @@
     </section>
     <section class="ads">
       <h2 class="ads__title">Актуально на маркете</h2>
+      <button class="ads__add button button--add">Добавить объявление</button>
       <ul class="ads__tabs tabs">
         <li class="ads__tab tabs__item">
           <a class="ads__link ads__link--rent tabs__link" href="#">Аренда</a>
@@ -328,13 +329,398 @@
           <a class="ads__link ads__link--bids tabs__link" href="#">Заявки</a>
         </li>
       </ul>
-      <div class="ads__content">
-
+      <div class="ads__content tabs__content">
+        <ul class="ads__list">
+          <li class="ads__item card">
+            <div class="card__image">
+              <img src="img/ads/1.jpg" width="206" height="143" alt="Bauer BG24H BG 24 H">
+              <span class="card__rating">5.7</span>
+            </div>
+            <p class="card__text">
+              <span>Модель:</span>
+              <a class="card__link" href="#">Bauer BG24H BG 24 H</a>
+            </p>
+            <p class="card__text">
+              <span>ID:</span>
+              <a class="card__link" href="#">32456</a>
+            </p>
+            <p class="card__text">
+              <span>База:</span>
+              Щербинка, МО
+            </p>
+            <p class="card__text card__text--bolded">
+              Аренда: 15000 р./день
+            </p>
+            <a class="card__button" href="#">Бронировать</a>
+          </li>
+          <li class="ads__item card">
+            <div class="card__image">
+              <img src="img/ads/1.jpg" width="206" height="143" alt="Bauer BG24H BG 24 H">
+              <span class="card__rating">5.7</span>
+            </div>
+            <p class="card__text">
+              <span>Модель:</span>
+              <a class="card__link" href="#">Bauer BG24H BG 24 H</a>
+            </p>
+            <p class="card__text">
+              <span>ID:</span>
+              <a class="card__link" href="#">32456</a>
+            </p>
+            <p class="card__text">
+              <span>База:</span>
+              Щербинка, МО
+            </p>
+            <p class="card__text card__text--bolded">
+              Аренда: 15000 р./день
+            </p>
+            <a class="card__button" href="#">Бронировать</a>
+          </li>
+          <li class="ads__item card">
+            <div class="card__image">
+              <img src="img/ads/1.jpg" width="206" height="143" alt="Bauer BG24H BG 24 H">
+              <span class="card__rating">5.7</span>
+            </div>
+            <p class="card__text">
+              <span>Модель:</span>
+              <a class="card__link" href="#">Bauer BG24H BG 24 H</a>
+            </p>
+            <p class="card__text">
+              <span>ID:</span>
+              <a class="card__link" href="#">32456</a>
+            </p>
+            <p class="card__text">
+              <span>База:</span>
+              Щербинка, МО
+            </p>
+            <p class="card__text card__text--bolded">
+              Аренда: 15000 р./день
+            </p>
+            <a class="card__button" href="#">Бронировать</a>
+          </li>
+          <li class="ads__item card">
+            <div class="card__image">
+              <img src="img/ads/1.jpg" width="206" height="143" alt="Bauer BG24H BG 24 H">
+              <span class="card__rating">5.7</span>
+            </div>
+            <p class="card__text">
+              <span>Модель:</span>
+              <a class="card__link" href="#">Bauer BG24H BG 24 H</a>
+            </p>
+            <p class="card__text">
+              <span>ID:</span>
+              <a class="card__link" href="#">32456</a>
+            </p>
+            <p class="card__text">
+              <span>База:</span>
+              Щербинка, МО
+            </p>
+            <p class="card__text card__text--bolded">
+              Аренда: 15000 р./день
+            </p>
+            <a class="card__button" href="#">Бронировать</a>
+          </li>
+          <li class="ads__item card">
+            <div class="card__image">
+              <img src="img/ads/1.jpg" width="206" height="143" alt="Bauer BG24H BG 24 H">
+              <span class="card__rating">5.7</span>
+            </div>
+            <p class="card__text">
+              <span>Модель:</span>
+              <a class="card__link" href="#">Bauer BG24H BG 24 H</a>
+            </p>
+            <p class="card__text">
+              <span>ID:</span>
+              <a class="card__link" href="#">32456</a>
+            </p>
+            <p class="card__text">
+              <span>База:</span>
+              Щербинка, МО
+            </p>
+            <p class="card__text card__text--bolded">
+              Аренда: 15000 р./день
+            </p>
+            <a class="card__button" href="#">Бронировать</a>
+          </li>
+        </ul>
+        <div class="ads__links">
+          <a class="ads__more" href="#">Показать еще</a>
+          <a class="ads__all" href="#">Перейти в журнал</a>
+        </div>
       </div>
+    </section>
+    <section class="offers">
+      <h2 class="offers__title">Выбор предложений по регионам РФ</h2>
+      <span class="offers__label">Не нашли что искали?</span>
+      <button class="offers__add button button--add">Добавить запрос на технику</button>
+      <form class="offers__form" action="#" method="POST">
+        <p class="offers__field">
+          <label class="visually-hidden" for="offers-region">Регион</label>
+          <select class="offers__select" name="offers-region" id="offers-region">
+            <option value="all" selected>Выберите регион</option>
+            <option value="northwestern">Северо-Западный (<span>134</span>)</option>
+            <option value="central">Центральный (<span>24</span>)</option>
+            <option value="volga">Приволжский (<span>15</span>)</option>
+          </select>
+        </p>
+        <p class="offers__field">
+          <label class="visually-hidden" for="offers-type">Тип объявлений</label>
+          <select class="offers__select" name="offers-type" id="offers-type">
+            <option value="all" selected>Выберите регион</option>
+            <option value="offers-type-rent">Аренда</option>
+            <option value="offers-type-sale">Продажа</option>
+          </select>
+        </p>
+        <p class="offers__field">
+          <label class="visually-hidden" for="offers-category">Категория</label>
+          <select class="offers__select" name="offers-category" id="offers-category">
+            <option value="all" selected>Выберите категорию</option>
+            <option value="offers-category-drilling-rig">Буровая установка</option>
+            <option value="offers-category-loaders">Погрузчики</option>
+            <option value="offers-category-piling-hammers">Сваебойные молота</option>
+          </select>
+        </p>
+        <button class="visually-hidden" type="submit">Искать</button>
+      </form>
+      <div class="offers__result">
+        <p class="offers__text">По вашему запросу <b>найдено <span>245</span> лотов:</b></p>
+        <ul class="offers__list">
+          <li class="offers__columns">
+            <ul class="offers__sublist">
+              <li class="offers__item">
+                <a class="offers__link" href="#">Буровая установка Bauer BG24H BG 24</a>
+              </li>
+              <li class="offers__item">
+                <a class="offers__link" href="#">Буровая Bauer BG24H BG 24</a>
+              </li>
+              <li class="offers__item">
+                <a class="offers__link" href="#">Bauer BG24H BG 24</a>
+              </li>
+              <li class="offers__item">
+                <a class="offers__link" href="#">Установка Bauer BG24H BG 24</a>
+              </li>
+              <li class="offers__item">
+                <a class="offers__link" href="#">Ссылка в тексте статик</a>
+              </li>
+            </ul>
+          </li>
+          <li class="offers__columns">
+            <ul class="offers__sublist">
+              <li class="offers__item">
+                <a class="offers__link" href="#">Буровая установка Bauer BG24H BG 24</a>
+              </li>
+              <li class="offers__item">
+                <a class="offers__link" href="#">Буровая Bauer BG24H BG 24</a>
+              </li>
+              <li class="offers__item">
+                <a class="offers__link" href="#">Bauer BG24H BG 24</a>
+              </li>
+              <li class="offers__item">
+                <a class="offers__link" href="#">Установка Bauer BG24H BG 24</a>
+              </li>
+              <li class="offers__item">
+                <a class="offers__link" href="#">Ссылка в тексте статик</a>
+              </li>
+            </ul>
+          </li>
+          <li class="offers__columns">
+            <ul class="offers__sublist">
+              <li class="offers__item">
+                <a class="offers__link" href="#">Буровая установка Bauer BG24H BG 24</a>
+              </li>
+              <li class="offers__item">
+                <a class="offers__link" href="#">Буровая Bauer BG24H BG 24</a>
+              </li>
+              <li class="offers__item">
+                <a class="offers__link" href="#">Bauer BG24H BG 24</a>
+              </li>
+              <li class="offers__item">
+                <a class="offers__link" href="#">Установка Bauer BG24H BG 24</a>
+              </li>
+              <li class="offers__item">
+                <a class="offers__link" href="#">Ссылка в тексте статик</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <a class="offers__more" href="#">Показать еще</a>
+      </div>
+    </section>
+    <section class="capability">
+      <h2 class="capability__title">Ваши возможности с нами</h2>
+      <a class="capability__ad" href="#">Реклама на проекте</a>
+      <ul class="capability__tabs tabs">
+        <li class="capability__tab tabs__item">
+          <a class="capability__link tabs__link" href="#">Дилерам</a>
+        </li>
+        <li class="capability__tab tabs__item">
+          <a class="capability__link tabs__link" href="#">Арендодателям</a>
+        </li>
+      </ul>
+      <ul class="capability__list tabs__content">
+        <li class="capability__item">
+          <h3 class="capability__name">1 миллион зарегистрированных пользователей</h3>
+          <p class="capability__text">Donec ac lacus in nulla sodales sodales at ut magna. Proin eget pretium libero. Etiam suscipit quis dolor eleifend consectetur.</p>
+        </li>
+        <li class="capability__item">
+          <h3 class="capability__name">1234 посетителей сейчас на сайте</h3>
+          <p class="capability__text">Donec ac lacus in nulla sodales sodales at ut magna. Proin eget pretium libero. Etiam suscipit quis dolor eleifend consectetur.</p>
+        </li>
+        <li class="capability__item">
+          <h3 class="capability__name">123234 лотов на сайте</h3>
+          <p class="capability__text">Donec ac lacus in nulla sodales sodales at ut magna. Proin eget pretium libero. Etiam suscipit quis dolor eleifend consectetur.</p>
+        </li>
+        <li class="capability__item">
+          <h3 class="capability__name">Более 400 сделок в час</h3>
+          <p class="capability__text">Donec ac lacus in nulla sodales sodales at ut magna. Proin eget pretium libero. Etiam suscipit quis dolor eleifend consectetur.</p>
+        </li>
+        <li class="capability__item">
+          <h3 class="capability__name">1 миллион зарегистрированных пользователей</h3>
+          <p class="capability__text">Donec ac lacus in nulla sodales sodales at ut magna. Proin eget pretium libero. Etiam suscipit quis dolor eleifend consectetur.</p>
+        </li>
+      </ul>
+      <a class="capability__more" href="#">Все возможности</a>
+    </section>
+    <section class="subscription">
+      <h2 class="visually-hidden">Подпишитесь на нашу рассылку</h2>
+      <p class="subscription__text">Будьте всегда в курсе новых поступлений техники</p>
+      <form class="subscription__form" action="#">
+        <p class="subscription__item">
+          <label class="visually-hidden" for="subscription-email">Укажите свой e-mail</label>
+          <input class="subscription__input" id="subscription-email" type="text" name="subscription-email" placeholder="Укажите свой e-mail">
+        </p>
+        <button class="subscription__subscribe button button--outlined">Подписаться</button>
+      </form>
+    </section>
+    <section class="catalog">
+      <h2 class="visually-hidden">Все категории техники</h2>
+      <ul class="catalog__list">
+        <li class="catalog__category">
+          <h3 class="catalog__title">Строительная техника</h3>
+          <ul class="catalog__sublist">
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Экскаваторы-погрузчики</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Экскаваторы</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Строительные погрузчики</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Бульдозеры</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Подъёмные краны</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Дорожно-строительная техника</a>
+            </li>
+          </ul>
+        </li>
+        <li class="catalog__category">
+          <h3 class="catalog__title">Коммерческий транспорт</h3>
+          <ul class="catalog__sublist">
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Грузовики</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Седельные тягачи</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Грузовые прицепы</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Полуприцепы</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Коммерческие автомобили</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Автобусы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="catalog__category">
+          <h3 class="catalog__title">Лесотехника</h3>
+          <ul class="catalog__sublist">
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Харвестеры</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Форвардеры</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Лесозаготовительные комплекс</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Трелёвочные тракторы</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Лесопогрузчики</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Дорожно-строительная техника</a>
+            </li>
+          </ul>
+        </li>
+        <li class="catalog__category">
+          <h3 class="catalog__title">Сельхозтехника</h3>
+          <ul class="catalog__sublist">
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Сельскохозяйственные тракторы</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Оборудование для сельхозтехники</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Землеройные сельхозмашины</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Зерноуборочная техника</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Самоходная кормоуборочная техн</a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">Машины для уборки сена</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <a class="catalog__more" href="#">Все категории</a>
     </section>
   </main>
   <footer class="page-footer">
-
+    <nav class="page-footer__nav footer-nav">
+      <div class="footer-nav__wrapper">
+        <p class="footer-nav__title">Каталог</p>
+        <ul class="footer-nav__list">
+          <li class="footer-nav__item">
+            <a class="footer-nav__link" href="#">Каталог техники</a>
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link" href="#">Каталог производителей</a>
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link" href="#">Каталог поставщиков</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-nav__wrapper">
+        <p class="footer-nav__title">Бизнесу</p>
+        <ul class="footer-nav__list">
+          <li class="footer-nav__item">
+            <a class="footer-nav__link" href="#">О проекте</a>
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link" href="#">Тарифы</a>
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link" href="#">Реклама на сайте</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </footer>
 </body>
 </html>
