@@ -1,0 +1,51 @@
+.user-nav {
+  @include reset-list;
+
+  display: flex;
+  flex-direction: row;
+
+  margin-left: auto;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: none;
+}
+
+.user-nav__item {
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.user-nav__link {
+  display: block;
+  padding-top: 9px;
+  padding-bottom: 9px;
+
+  color: $default-color;
+}
+
+.user-nav__link--search {
+  position: relative;
+
+  width: 13px;
+  height: 13px;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: 12px;
+    left: 0;
+
+    width: 13px;
+    height: 13px;
+
+    background-image: url(../img/icon-loupe.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

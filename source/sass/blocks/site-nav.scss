@@ -1,0 +1,43 @@
+.site-nav {
+  display: flex;
+  flex-direction: row;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  @include reset-list;
+}
+
+.site-nav__item {
+  margin-right: 27px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.site-nav__link {
+  position: relative;
+
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+
+  color: $default-color;
+
+  &::after {
+    content: "";
+
+    position: absolute;
+    top: calc(50% - 3px);
+    right: 0;
+
+    width: 10px;
+    height: 6px;
+
+    background-image: url(../img/icon-arrow.svg);
+  }
+}
