@@ -1,0 +1,11 @@
+.subscription__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.subscription__form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

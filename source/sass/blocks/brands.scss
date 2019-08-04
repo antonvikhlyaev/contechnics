@@ -1,0 +1,39 @@
+.brands {
+  width: 352px;
+}
+
+.brands__list {
+  @include reset-list;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.brands__item {
+  flex-shrink: 0;
+
+  margin-bottom: 20px;
+  margin-right: 20px;
+
+  width: 104px;
+  min-height: 94px;
+
+  border: 1px solid #DCDADF;
+
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  & .brands__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 102px;
+    min-height: 94px;
+
+
+  }
+}
+

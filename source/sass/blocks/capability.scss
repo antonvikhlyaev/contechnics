@@ -1,0 +1,13 @@
+.capability__list {
+  @include reset-list;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.capability__item {
+  flex-shrink: 0;
+
+  width: 180px;
+}

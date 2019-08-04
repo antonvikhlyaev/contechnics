@@ -1,0 +1,38 @@
+.card {
+  width: 208px;
+}
+
+.card__image {
+  position: relative;
+
+  width: 206px;
+  height: 143px;
+}
+
+.card__rating {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+
+  padding-left: 20px;
+
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #ffffff;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 14px;
+    height: 17px;
+
+    background-image: url(../img/icon-rating.svg);
+  }
+}
+
+

@@ -1,0 +1,28 @@
+.offers__form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.offers__list {
+  @include reset-list;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.offers__columns {
+  flex-shrink: 0;
+
+  margin-right: 32px;
+
+  width: 288px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.offers__sublist {
+  @include reset-list;
+}

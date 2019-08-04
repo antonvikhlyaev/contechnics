@@ -1,0 +1,15 @@
+.button {
+  display: inline-block;
+
+  margin: 0;
+
+  vertical-align: top;
+
+  border: none;
+  border-radius: 3px;
+
+  &--filled {
+    color: #ffffff;
+    background-color: $default-color;
+  }
+}

@@ -1,0 +1,21 @@
+.journal__list {
+  @include reset-list;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.journal__item {
+  flex-shrink: 0;
+  margin-right: 32px;
+
+  width: 256px;
+
+  &--wide {
+    width: 544px;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

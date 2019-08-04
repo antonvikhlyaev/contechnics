@@ -1,0 +1,41 @@
+.search {
+  margin: 0;
+  padding: 32px;
+  padding-top: 12px;
+
+  width: 352px;
+
+  box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+}
+
+.search__field {
+  position: relative;
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+
+  &--region {
+    width: 191px;
+  }
+
+  &--radius {
+    width: 88px;
+  }
+}
+
+.search__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search__button {
+  padding: 16px;
+  width: 100%;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+}
