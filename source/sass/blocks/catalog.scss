@@ -1,12 +1,36 @@
 .catalog {
+  margin: 0;
+  padding: 0;
+  padding-top: 28px;
+  padding-bottom: 32px;
+
   background-color: #BED7C1;
 }
 
 .catalog__list {
   @include reset-list;
+  margin-bottom: 18px;
 
   display: flex;
   flex-direction: row;
+
+  font-size: 14px;
+  line-height: 24px;
+
+  & a {
+    color: $default-color;
+    text-decoration: underline;
+  }
+}
+
+.catalog__title {
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 0;
+
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
 }
 
 .catalog__category {

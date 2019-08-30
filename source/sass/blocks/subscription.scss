@@ -1,11 +1,81 @@
+.subscription {
+  margin: 0;
+  padding: 0;
+  padding-top: 28px;
+  padding-bottom: 28px;
+
+  color: #ffffff;
+
+  background-color: #000000;
+  background-image: url("../img/subscription-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .subscription__container {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .subscription__form {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.subscription__text {
+  margin: 0;
+  margin-left: auto;
+  margin-right: 127px;
+  padding: 0;
+
+  width: 250px;
+
+  font-size: 18px;
+  line-height: 23px;
+
+  text-align: right;
+}
+
+.subscription__item {
+  margin-right: 82px;
+
+  width: 400px;
+}
+
+.subscription__input {
+  padding: 5px;
+
+  width: 100%;
+
+  font-weight: 700;
+  color: #ffffff;
+
+  background: none;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+
+  &:focus,
+  &:hover {
+    outline: none;
+    border-color: #f1692b;
+  }
+}
+
+.subscription__input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.subscription__input::-moz-placeholder {
+  color: #ffffff;
+}
+
+.subscription__input:-moz-placeholder {
+  color: #ffffff;
+}
+
+.subscription__input:-ms-input-placeholder {
+  color: #ffffff;
 }

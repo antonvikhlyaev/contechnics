@@ -2,6 +2,10 @@
   width: 352px;
 }
 
+.brands__tabs {
+  margin-bottom: 23px;
+}
+
 .brands__list {
   @include reset-list;
 
@@ -13,7 +17,7 @@
 .brands__item {
   flex-shrink: 0;
 
-  margin-bottom: 20px;
+  margin-bottom: 21px;
   margin-right: 20px;
 
   width: 104px;
@@ -32,8 +36,10 @@
 
     width: 102px;
     min-height: 94px;
+  }
 
-
+  &:focus,
+  &:hover {
+    border-color: #f1692b;
   }
 }
-

@@ -1,9 +1,36 @@
 .bottomline {
-  font-size: 14px;
-  line-height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-size: 15px;
+  line-height: 19px;
   text-decoration: underline;
 
   &--centered {
-    text-align: center;
+    justify-content: center;
+  }
+
+  & a {
+    position: relative;
+
+    padding-right: 12px;
+
+    color: $default-color;
+
+    &::after {
+      content: "";
+
+      position: absolute;
+      top: calc(50% - 1.5px);
+      right: 0px;
+
+      width: 2px;
+      height: 5px;
+
+      background-image: url("../img/icon-arrow-bottomline.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
   }
 }

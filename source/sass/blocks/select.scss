@@ -22,4 +22,9 @@
   -moz-appearance: none;
   -ms-appearance: none;
   appearance: none;
+
+  &:focus,
+  &:hover {
+    border-color: #f1692b;
+  }
 }

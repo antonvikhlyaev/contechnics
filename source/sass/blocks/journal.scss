@@ -1,15 +1,37 @@
+.journal {
+  margin-bottom: 56px;
+  padding-top: 20px;
+}
+
+.journal__topline {
+  margin-bottom: 4px;
+}
+
+.journal__tabs {
+  margin-bottom: 23px;
+}
+
 .journal__list {
   @include reset-list;
 
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  margin-bottom: 22px;
 }
 
 .journal__item {
+  position: relative;
   flex-shrink: 0;
-  margin-right: 32px;
 
-  width: 256px;
+  margin: 0;
+  margin-right: 32px;
+  padding: 0;
+
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
 
   &--wide {
     width: 544px;
@@ -18,4 +40,121 @@
   &:last-child {
     margin-right: 0;
   }
+
+  & .journal__image {
+    width: 256px;
+    height: 200px;
+  }
+
+  &--wide .journal__image {
+    width: 544px;
+    height: 424px;
+  }
+
+  & a {
+    color: $default-color;
+  }
+}
+
+.journal__countainer {
+  display: flex;
+  flex-direction: column;
+
+  padding: 24px;
+
+  width: 256px;
+  min-height: 224px;
+
+  background-color: #ffffff;
+
+  border-radius: 3px;
+}
+
+.journal__item--wide .journal__countainer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  z-index: 2;
+}
+
+.journal__image {
+  display: block;
+
+  margin: 0;
+  padding: 0;
+}
+
+.journal__tag {
+  margin: 0;
+  margin-top: 2px;
+  margin-bottom: 13px;
+  padding: 0;
+
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  color: #565656;
+}
+
+.journal__name {
+  margin: 0;
+  padding: 0;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.journal__bottom {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: auto;
+  margin-bottom: 2px;
+}
+
+.journal__date {
+  margin: 0;
+  padding: 0;
+
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.journal__comments {
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+
+  font-size: 10px;
+  line-height: 11px;
+  color: #565656;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: -5px;
+    left: -4px;
+
+    width: 24px;
+    height: 24px;
+
+    background-image: url("../img/icon-comments.svg");
+  }
+}
+
+.journal__more {
+  margin-right: 40px;
+}
+
+.journal__more::after {
+  width: 5px;
+  height: 2px;
+
+  transform: rotate(90deg);
 }

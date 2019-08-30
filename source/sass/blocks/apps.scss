@@ -1,0 +1,48 @@
+.apps {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+.apps__title {
+  margin: 0;
+  margin-bottom: 14px;
+  padding: 0;
+}
+
+.apps__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 68px;
+}
+
+.apps__link {
+  display: block;
+
+  margin: 0;
+  padding: 0;
+
+  width: 24px;
+  height: 24px;
+
+  opacity: 0.5;
+
+  &--ios {
+    background-image: url("../img/icon-apple.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--android {
+    background-image: url("../img/icon-android.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &:focus,
+  &:hover {
+    opacity: 1;
+  }
+}

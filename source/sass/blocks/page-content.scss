@@ -1,6 +1,7 @@
-.page-content__container {
+.page-content__columns {
   display: flex;
   flex-direction: row;
-
   justify-content: space-between;
+
+  margin-bottom: 36px;
 }

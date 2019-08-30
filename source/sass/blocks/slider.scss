@@ -1,16 +1,33 @@
 .slider {
   position: relative;
+
+  width: 736px;
+  height: 344px;
+}
+
+.slider__list {
+  @include reset-list;
 }
 
 .slider__item {
   display: none;
 
+  width: 736px;
+  height: 344px;
+
   &--current {
     display: block;
+  }
+
+  &--01 {
+    background-image: url("../img/slide-1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
   }
 }
 
 .slider__toggles {
   position: absolute;
+  bottom: 25px;
+  left: 50px;
 }
-

@@ -1,13 +1,79 @@
+.capability {
+  margin-bottom: 31px;
+}
+
+.capability__topline {
+  margin-bottom: 4px;
+}
+
 .capability__list {
   @include reset-list;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  margin-bottom: 22px;
 }
 
 .capability__item {
   flex-shrink: 0;
 
+  position: relative;
+
+  padding-top: 95px;
+
   width: 180px;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: 20px;
+    left: 0;
+
+    width: 72px;
+    height: 72px;
+  }
+
+  &--users::before {
+    background-image: url("../img/icon-users.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--hosts::before {
+    background-image: url("../img/icon-hosts.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--lots::before {
+    background-image: url("../img/icon-lots.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--contracts::before {
+    background-image: url("../img/icon-contracts.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.capability__name {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  padding: 0;
+
+  min-height: 63px;
+}
+
+.capability__text {
+  margin: 0;
+  padding: 0;
+
+  font-size: 13px;
+  line-height: 17px;
 }

@@ -1,8 +1,22 @@
+.ads {
+  margin-bottom: 56px;
+}
+
+.ads__topline {
+  margin-bottom: 4px;
+}
+
+.ads__tabs {
+  margin-bottom: 24px;
+}
+
 .ads__list {
   @include reset-list;
 
   display: flex;
   flex-direction: row;
+
+  margin-bottom: 22px;
 }
 
 .ads__item {
@@ -13,4 +27,8 @@
   &:nth-child(5n) {
     margin-right: 0;
   }
+}
+
+.ads__more {
+  margin-right: 40px;
 }

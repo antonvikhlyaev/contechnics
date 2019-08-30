@@ -49,246 +49,250 @@
   </header>
   <main class="page-content">
     <h1 class="visually-hidden">Contechnics - аренда техники </h1>
-    <div class="page-content__container container">
-      <section class="search tabs">
-        <h2 class="visually-hidden">Поиск техники на сайте</h2>
-        <ul class="search__tabs tabs__list">
-          <li class="search__tab tabs__item">
-            <a class="search__link search__link--rent tabs__link tabs__link--current" href="#">Аренда</a>
-          </li>
-          <li class="search__tab tabs__item">
-            <a class="search__link search__link--sale tabs__link" href="#">Продажа</a>
-          </li>
-          <li class="search__tab tabs__item">
-            <a class="search__link search__link--bids tabs__link" href="#">Заявки</a>
-          </li>
-        </ul>
-        <div class="search__content tabs__content">
-          <form class="search__form" action="#" method="POST">
-            <p class="search__field">
-              <label class="visually-hidden" for="search-rent-key">Ключевое слово</label>
-              <input class="search__input input" id="search-rent-key" type="text" name="search-rent-key" placeholder="Ключевое слово">
-            </p>
-            <p class="search__field search__field--select">
-              <label class="visually-hidden" for="search-rent-category">Категория</label>
-              <select class="search__select select" name="search-rent-category" id="search-rent-category">
-                <option value="all" selected>Категория</option>
-                <option value="pile-hammers">Сваебойные молота</option>
-                <option value="pile-hammers">Сваебойные молота</option>
-                <option value="pile-hammers">Сваебойные молота</option>
-                <option value="pile-hammers">Сваебойные молота</option>
-              </select>
-            </p>
-            <div class="search__wrapper">
-              <p class="search__field search__field--select search__field--region">
-                <label class="visually-hidden" for="search-rent-region">Регион</label>
-                <select class="search__select select" name="search-rent-region" id="search-rent-region">
-                  <option value="all" selected>Регион</option>
-                  <option value="tatarstan">Республика Татарстан</option>
-                  <option value="bashkortostan">Республика Башкортостан</option>
-                  <option value="moscow">Москва</option>
+    <div class="container">
+      <div class="page-content__columns">
+        <section class="search tabs">
+          <h2 class="visually-hidden">Поиск техники на сайте</h2>
+          <ul class="search__tabs tabs__list">
+            <li class="search__tab tabs__item">
+              <a class="search__link search__link--rent tabs__link tabs__link--current" href="#">Аренда</a>
+            </li>
+            <li class="search__tab tabs__item">
+              <a class="search__link search__link--sale tabs__link" href="#">Продажа</a>
+            </li>
+            <li class="search__tab tabs__item">
+              <a class="search__link search__link--bids tabs__link" href="#">Заявки</a>
+            </li>
+          </ul>
+          <div class="search__content tabs__content">
+            <form class="search__form" action="#" method="POST">
+              <p class="search__field">
+                <label class="visually-hidden" for="search-rent-key">Ключевое слово</label>
+                <input class="search__input input" id="search-rent-key" type="text" name="search-rent-key" placeholder="Ключевое слово">
+              </p>
+              <p class="search__field search__field--select">
+                <label class="visually-hidden" for="search-rent-category">Категория</label>
+                <select class="search__select select" name="search-rent-category" id="search-rent-category">
+                  <option value="all" selected>Категория</option>
+                  <option value="pile-hammers">Сваебойные молота</option>
+                  <option value="pile-hammers">Сваебойные молота</option>
+                  <option value="pile-hammers">Сваебойные молота</option>
+                  <option value="pile-hammers">Сваебойные молота</option>
                 </select>
               </p>
-              <p class="search__field search__field--select search__field--radius">
-                <label class="visually-hidden" for="search-rent-radius">Расширение радиуса поиска</label>
-                <select class="search__select select" name="search-rent-radius" id="search-rent-radius">
-                  <option value="100" selected>+100</option>
-                  <option value="200">+200</option>
-                  <option value="300">+300</option>
-                  <option value="400">+400</option>
-                </select>
-              </p>
-            </div>
-            <button class="search__button button button--filled">Найти</button>
-          </form>
-        </div>
-      </section>
-      <section class="special-offers slider">
-        <h2 class="visually-hidden">Спецпредложения</h2>
-        <ul class="slider__list">
-          <li class="special-offers__item slider__item slider__item--01 slider__item--current">
-            <h3 class="special-offers__title">Льготный лизинг</h3>
-            <p class="special-offers__text">В сфере строительства особенно важно, чтобы проекты реализовывались в рамках обозначенного бюджета и временных сроков. Лизинг строительной и спецтехники позволит вам быстро и эффективно решить эту задачу.</p>
-            <a class="special-offers__button button button--outlined" href="#">Подробнее</a>
-          </li>
-          <li class="special-offers__item slider__item slider__item--02">
-            <h3 class="special-offers__title">Выгодный кредит</h3>
-            <p class="special-offers__text">Приобретайте строительную спецтехнику в кредит. Это позволит вам быстро и эффективно решить задачу.</p>
-            <a class="special-offers__button button button--outlined" href="#">Подробнее</a>
-          </li>
-          <li class="special-offers__item slider__item slider__item--03">
-            <h3 class="special-offers__title">Льготный лизинг</h3>
-            <p class="special-offers__text">В сфере строительства особенно важно, чтобы проекты реализовывались в рамках обозначенного бюджета и временных сроков. Лизинг строительной и спецтехники позволит вам быстро и эффективно решить эту задачу.</p>
-            <a class="special-offers__button button button--outlined" href="#">Подробнее</a>
-          </li>
-        </ul>
-        <div iv class="slider__toggles">
-          <button class="slider__toggle slider__toggle--arrow slider__toggle--prev" type="button">
-            <span class="visually-hidden">Предыдущий слайд</span>
-          </button>
-          <button class="slider__toggle" type="button">
-            <span class="visually-hidden">Первый слайд</span>
-          </button>
-          <button class="slider__toggle" type="button">
-            <span class="visually-hidden">Второй слайд</span>
-          </button>
-          <button class="slider__toggle" type="button">
-            <span class="visually-hidden">Третий слайд</span>
-          </button>
-          <button class="slider__toggle slider__toggle--arrow slider__toggle--next" type="button">
-            <span class="visually-hidden">Следующий слайд</span>
-          </button>
-        </div>
-      </section>
+              <div class="search__wrapper">
+                <p class="search__field search__field--select search__field--region">
+                  <label class="visually-hidden" for="search-rent-region">Регион</label>
+                  <select class="search__select select" name="search-rent-region" id="search-rent-region">
+                    <option value="all" selected>Регион</option>
+                    <option value="tatarstan">Республика Татарстан</option>
+                    <option value="bashkortostan">Республика Башкортостан</option>
+                    <option value="moscow">Москва</option>
+                  </select>
+                </p>
+                <p class="search__field search__field--select search__field--radius">
+                  <label class="visually-hidden" for="search-rent-radius">Расширение радиуса поиска</label>
+                  <select class="search__select select" name="search-rent-radius" id="search-rent-radius">
+                    <option value="100" selected>+100</option>
+                    <option value="200">+200</option>
+                    <option value="300">+300</option>
+                    <option value="400">+400</option>
+                  </select>
+                </p>
+              </div>
+              <button class="search__button button button--filled">Найти</button>
+            </form>
+          </div>
+        </section>
+        <section class="special-offers slider">
+          <h2 class="visually-hidden">Спецпредложения</h2>
+          <ul class="slider__list">
+            <li class="special-offers__item slider__item slider__item--01 slider__item--current">
+              <h3 class="special-offers__title">Льготный лизинг</h3>
+              <p class="special-offers__text">В сфере строительства особенно важно, чтобы проекты реализовывались в рамках обозначенного бюджета и временных сроков. Лизинг строительной и спецтехники позволит вам быстро и эффективно решить эту задачу.</p>
+              <a class="special-offers__button button button--outlined-white-bg" href="#">Подробнее</a>
+            </li>
+            <li class="special-offers__item slider__item slider__item--02">
+              <h3 class="special-offers__title">Выгодный кредит</h3>
+              <p class="special-offers__text">Приобретайте строительную спецтехнику в кредит. Это позволит вам быстро и эффективно решить задачу.</p>
+              <a class="special-offers__button button button--outlined" href="#">Подробнее</a>
+            </li>
+            <li class="special-offers__item slider__item slider__item--03">
+              <h3 class="special-offers__title">Льготный лизинг</h3>
+              <p class="special-offers__text">В сфере строительства особенно важно, чтобы проекты реализовывались в рамках обозначенного бюджета и временных сроков. Лизинг строительной и спецтехники позволит вам быстро и эффективно решить эту задачу.</p>
+              <a class="special-offers__button button button--outlined" href="#">Подробнее</a>
+            </li>
+          </ul>
+          <div iv class="slider__toggles">
+            <button class="slider__toggle slider__toggle--arrow slider__toggle--prev" type="button">
+              <span class="visually-hidden">Предыдущий слайд</span>
+            </button>
+            <button class="slider__toggle" type="button">
+              <span class="visually-hidden">Первый слайд</span>
+            </button>
+            <button class="slider__toggle" type="button">
+              <span class="visually-hidden">Второй слайд</span>
+            </button>
+            <button class="slider__toggle" type="button">
+              <span class="visually-hidden">Третий слайд</span>
+            </button>
+            <button class="slider__toggle slider__toggle--arrow slider__toggle--next" type="button">
+              <span class="visually-hidden">Следующий слайд</span>
+            </button>
+          </div>
+        </section>
+      </div>
     </div>
-    <div class="page-content__container container">
-      <section class="brands tabs">
-        <h2 class="visually-hidden">Бренды</h2>
-        <ul class="brands__tabs tabs__list">
-          <li class="brands__tab tabs__item">
-            <a class="brands__link brands__link--popular tabs__link" href="#">Популярные бренды</a>
-          </li>
-          <li class="brands__tab tabs__item">
-            <a class="brands__link brands__link--best tabs__link" href="#">Лучшие бренды</a>
-          </li>
-        </ul>
-        <div class="brands__content tabs__content">
-          <ul class="brands__list">
-            <li class="brands__item">
-              <a class="brands__link" href="#">
-                <img class="brands__logo" src="img/logo/hitachi.png" alt="Логотип Hitachi">
+    <div class="container">
+      <div class="page-content__columns">
+        <section class="brands tabs">
+          <h2 class="visually-hidden">Бренды</h2>
+          <ul class="brands__tabs tabs__list">
+            <li class="brands__tab tabs__item">
+              <a class="brands__link brands__link--popular tabs__link tabs__link--current" href="#">Популярные бренды</a>
+            </li>
+            <li class="brands__tab tabs__item">
+              <a class="brands__link brands__link--best tabs__link" href="#">Лучшие бренды</a>
+            </li>
+          </ul>
+          <div class="brands__content tabs__content">
+            <ul class="brands__list">
+              <li class="brands__item">
+                <a class="brands__link" href="#">
+                  <img class="brands__logo" src="img/logo/hitachi.png" alt="Логотип Hitachi">
+                </a>
+              </li>
+              <li class="brands__item">
+                <a class="brands__link" href="#">
+                  <img class="brands__logo" src="img/logo/liebherr.png" alt="Логотип Liebherr">
+                </a>
+              </li>
+              <li class="brands__item">
+                <a class="brands__link" href="#">
+                  <img class="brands__logo" src="img/logo/doosan.png" alt="Логотип Doosan">
+                </a>
+              </li>
+              <li class="brands__item">
+                <a class="brands__link" href="#">
+                  <img class="brands__logo" src="img/logo/john-deere.png" alt="Логотип John Deere">
+                </a>
+              </li>
+              <li class="brands__item">
+                <a class="brands__link" href="#">
+                  <img class="brands__logo" src="img/logo/terex.png" alt="Логотип Terex">
+                </a>
+              </li>
+              <li class="brands__item">
+                <a class="brands__link" href="#">
+                  <img class="brands__logo" src="img/logo/altec.png" alt="Логотип Altec">
+                </a>
+              </li>
+              <li class="brands__item">
+                <a class="brands__link" href="#">
+                  <img class="brands__logo" src="img/logo/komatsu.png" alt="Логотип Komatsu">
+                </a>
+              </li>
+              <li class="brands__item">
+                <a class="brands__link" href="#">
+                  <img class="brands__logo" src="img/logo/xcmg.png" alt="Логотип XCMG">
+                </a>
+              </li>
+              <li class="brands__item">
+                <a class="brands__link" href="#">
+                  <img class="brands__logo" src="img/logo/cat.png" alt="Логотип CAT">
+                </a>
+              </li>
+              <li class="brands__item">
+                <a class="brands__link" href="#">
+                  <img class="brands__logo" src="img/logo/sem.png" alt="Логотип Sem">
+                </a>
+              </li>
+              <li class="brands__item">
+                <a class="brands__link" href="#">
+                  <img class="brands__logo" src="img/logo/jcb.png" alt="Логотип JCB">
+                </a>
+              </li>
+              <li class="brands__item">
+                <a class="brands__link" href="#">
+                  <img class="brands__logo" src="img/logo/heavy-fair.png" alt="Логотип Heavy Fair">
+                </a>
+              </li>
+            </ul>
+            <div class="brands__bottomline bottomline">
+              <a class="brands__all" href="#">Смотреть все бренды</a>
+            </div>
+          </div>
+        </section>
+        <section class="categories">
+          <div class="categories__topline topline">
+            <h2 class="categories__title">Категории техники</h2>
+            <a class="categories__button button button--outlined button--add" href="#">Добавить объявление</a>
+          </div>
+          <ul class="categories__list">
+            <li class="categories__item">
+              <a class="categories__link categories__link--pile-hammers" href="#">
+                <span class="categories__number">357</span>
+                <h3 class="categories__name">Сваебойные молота</h3>
               </a>
             </li>
-            <li class="brands__item">
-              <a class="brands__link" href="#">
-                <img class="brands__logo" src="img/logo/liebherr.png" alt="Логотип Liebherr">
+            <li class="categories__item">
+              <a class="categories__link categories__link--pile-hammers" href="#">
+                <span class="categories__number">357</span>
+                <h3 class="categories__name">Сваебойные молота</h3>
               </a>
             </li>
-            <li class="brands__item">
-              <a class="brands__link" href="#">
-                <img class="brands__logo" src="img/logo/doosan.png" alt="Логотип Doosan">
+            <li class="categories__item">
+              <a class="categories__link categories__link--pile-hammers" href="#">
+                <span class="categories__number">357</span>
+                <h3 class="categories__name">Сваебойные молота</h3>
               </a>
             </li>
-            <li class="brands__item">
-              <a class="brands__link" href="#">
-                <img class="brands__logo" src="img/logo/john-deere.png" alt="Логотип John Deere">
+            <li class="categories__item">
+              <a class="categories__link categories__link--pile-hammers" href="#">
+                <span class="categories__number">357</span>
+                <h3 class="categories__name">Сваебойные молота</h3>
               </a>
             </li>
-            <li class="brands__item">
-              <a class="brands__link" href="#">
-                <img class="brands__logo" src="img/logo/terex.png" alt="Логотип Terex">
+            <li class="categories__item">
+              <a class="categories__link categories__link--pile-hammers" href="#">
+                <span class="categories__number">357</span>
+                <h3 class="categories__name">Сваебойные молота</h3>
               </a>
             </li>
-            <li class="brands__item">
-              <a class="brands__link" href="#">
-                <img class="brands__logo" src="img/logo/altec.png" alt="Логотип Altec">
+            <li class="categories__item">
+              <a class="categories__link categories__link--pile-hammers" href="#">
+                <span class="categories__number">357</span>
+                <h3 class="categories__name">Сваебойные молота</h3>
               </a>
             </li>
-            <li class="brands__item">
-              <a class="brands__link" href="#">
-                <img class="brands__logo" src="img/logo/komatsu.png" alt="Логотип Komatsu">
+            <li class="categories__item">
+              <a class="categories__link categories__link--pile-hammers" href="#">
+                <span class="categories__number">357</span>
+                <h3 class="categories__name">Сваебойные молота</h3>
               </a>
             </li>
-            <li class="brands__item">
-              <a class="brands__link" href="#">
-                <img class="brands__logo" src="img/logo/xcmg.png" alt="Логотип XCMG">
-              </a>
-            </li>
-            <li class="brands__item">
-              <a class="brands__link" href="#">
-                <img class="brands__logo" src="img/logo/cat.png" alt="Логотип CAT">
-              </a>
-            </li>
-            <li class="brands__item">
-              <a class="brands__link" href="#">
-                <img class="brands__logo" src="img/logo/sem.png" alt="Логотип Sem">
-              </a>
-            </li>
-            <li class="brands__item">
-              <a class="brands__link" href="#">
-                <img class="brands__logo" src="img/logo/jcb.png" alt="Логотип JCB">
-              </a>
-            </li>
-            <li class="brands__item">
-              <a class="brands__link" href="#">
-                <img class="brands__logo" src="img/logo/heavy-fair.png" alt="Логотип Heavy Fair">
+            <li class="categories__item">
+              <a class="categories__link categories__link--pile-hammers" href="#">
+                <span class="categories__number">357</span>
+                <h3 class="categories__name">Сваебойные молота</h3>
               </a>
             </li>
           </ul>
-          <div class="brands__bottomline bottomline">
-            <a class="brands__all" href="#">Смотреть все бренды</a>
+          <div class="categories__bottomline bottomline">
+            <a class="categories__all" href="#">Перейти в каталог</a>
           </div>
-        </div>
-      </section>
-      <section class="categories">
-        <div class="categories__topline topline">
-          <h2 class="categories__title">Категории техники</h2>
-          <a class="categories__button button" href="#">Добавить объявление</a>
-        </div>
-        <ul class="categories__list">
-          <li class="categories__item">
-            <a class="categories__link categories__link--pile-hammers" href="#">
-              <span class="categories__number">357</span>
-              <h3 class="categories__name">Сваебойные молота</h3>
-            </a>
-          </li>
-          <li class="categories__item">
-            <a class="categories__link categories__link--pile-hammers" href="#">
-              <span class="categories__number">357</span>
-              <h3 class="categories__name">Сваебойные молота</h3>
-            </a>
-          </li>
-          <li class="categories__item">
-            <a class="categories__link categories__link--pile-hammers" href="#">
-              <span class="categories__number">357</span>
-              <h3 class="categories__name">Сваебойные молота</h3>
-            </a>
-          </li>
-          <li class="categories__item">
-            <a class="categories__link categories__link--pile-hammers" href="#">
-              <span class="categories__number">357</span>
-              <h3 class="categories__name">Сваебойные молота</h3>
-            </a>
-          </li>
-          <li class="categories__item">
-            <a class="categories__link categories__link--pile-hammers" href="#">
-              <span class="categories__number">357</span>
-              <h3 class="categories__name">Сваебойные молота</h3>
-            </a>
-          </li>
-          <li class="categories__item">
-            <a class="categories__link categories__link--pile-hammers" href="#">
-              <span class="categories__number">357</span>
-              <h3 class="categories__name">Сваебойные молота</h3>
-            </a>
-          </li>
-          <li class="categories__item">
-            <a class="categories__link categories__link--pile-hammers" href="#">
-              <span class="categories__number">357</span>
-              <h3 class="categories__name">Сваебойные молота</h3>
-            </a>
-          </li>
-          <li class="categories__item">
-            <a class="categories__link categories__link--pile-hammers" href="#">
-              <span class="categories__number">357</span>
-              <h3 class="categories__name">Сваебойные молота</h3>
-            </a>
-          </li>
-        </ul>
-        <div class="categories__bottomline bottomline">
-          <a class="categories__all" href="#">Перейти в каталог</a>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
     <section class="journal tabs">
-      <div class="journal__container container">
+      <div class="container">
         <div class="journal__topline topline">
           <h2 class="journal__title heading-primary">Журнал индустрии</h2>
-          <button class="journal__subscribe button button--subscribe" type="button">Подписаться на журнал</button>
+          <button class="journal__subscribe button button--outlined button--like" type="button">Подписаться на журнал</button>
         </div>
         <ul class="journal__tabs tabs__list">
           <li class="journal__tab tabs__item">
-            <a class="journal__link journal__link--all tabs__link" href="#">Все</a>
+            <a class="journal__link journal__link--all tabs__link tabs__link--current" href="#">Все</a>
           </li>
           <li class="journal__tab tabs__item">
             <a class="journal__link journal__link--news tabs__link" href="#">Новости</a>
@@ -303,31 +307,43 @@
         <div class="journal__content tabs__content">
           <ul class="journal__list">
             <li class="journal__item journal__item--wide">
-              <img class="journal__image" src="img/journal/1-wide.jpg" alt="">
-              <div class="journal__countainer">
-                <span class="journal__tag">Новости</span>
-                <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов- погрузчиков Kamatsu</h3>
-                <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
-                <span class="journal__comments">134</span>
-              </div>
+              <a class="journal__news-link" href="news-01.html">
+                <img class="journal__image" src="img/news-1-bg.jpg" alt="">
+                <div class="journal__countainer">
+                  <span class="journal__tag">Новости</span>
+                  <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов - погрузчиков Kamatsu</h3>
+                  <div class="journal__bottom">
+                    <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
+                    <span class="journal__comments">134</span>
+                  </div>
+                </div>
+              </a>
             </li>
             <li class="journal__item">
-              <img class="journal__image" src="img/journal/1-wide.jpg" alt="">
-              <div class="journal__countainer">
-                <span class="journal__tag">Новости</span>
-                <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов- погрузчиков Kamatsu</h3>
-                <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
-                <span class="journal__comments">134</span>
-              </div>
+              <a class="journal__news-link" href="news-02.html">
+                <img class="journal__image" src="img/news-2.jpg" alt="">
+                <div class="journal__countainer">
+                  <span class="journal__tag">Обзоры</span>
+                  <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов - погрузчиков Kamatsu</h3>
+                  <div class="journal__bottom">
+                    <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
+                    <span class="journal__comments">134</span>
+                  </div>
+                </div>
+              </a>
             </li>
             <li class="journal__item">
-              <img class="journal__image" src="img/journal/1-wide.jpg" alt="">
-              <div class="journal__countainer">
-                <span class="journal__tag">Новости</span>
-                <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов- погрузчиков Kamatsu</h3>
-                <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
-                <span class="journal__comments">134</span>
-              </div>
+              <a class="journal__news-link" href="news-03.html">
+                <img class="journal__image" src="img/news-3.jpg" alt="">
+                <div class="journal__countainer">
+                  <span class="journal__tag">Статья</span>
+                  <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов - погрузчиков Kamatsu</h3>
+                  <div class="journal__bottom">
+                    <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
+                    <span class="journal__comments">134</span>
+                  </div>
+                </div>
+              </a>
             </li>
           </ul>
           <div class="journal__bottomline bottomline bottomline--centered">
@@ -340,12 +356,12 @@
     <section class="ads tabs">
       <div class="ads__container container">
         <div class="ads__topline topline">
-          <h2 class="ads__title  heading-primary">Актуально на маркете</h2>
-          <button class="ads__add button button--add">Добавить объявление</button>
+          <h2 class="ads__title heading-primary">Актуально на маркете</h2>
+          <button class="ads__add button button--outlined button--add">Добавить объявление</button>
         </div>
         <ul class="ads__tabs tabs__list">
           <li class="ads__tab tabs__item">
-            <a class="ads__link ads__link--rent tabs__link" href="#">Аренда</a>
+            <a class="ads__link ads__link--rent tabs__link tabs__link--current" href="#">Аренда</a>
           </li>
           <li class="ads__tab tabs__item">
             <a class="ads__link ads__link--sale tabs__link" href="#">Продажа</a>
@@ -361,110 +377,120 @@
                 <img src="img/ads/1.jpg" width="206" height="143" alt="Bauer BG24H BG 24 H">
                 <span class="card__rating">5.7</span>
               </div>
-              <p class="card__text">
-                <span>Модель:</span>
-                <a class="card__link" href="#">Bauer BG24H BG 24 H</a>
-              </p>
-              <p class="card__text">
-                <span>ID:</span>
-                <a class="card__link" href="#">32456</a>
-              </p>
-              <p class="card__text">
-                <span>База:</span>
-                Щербинка, МО
-              </p>
-              <p class="card__text card__text--bolded">
-                Аренда: 15000 р./день
-              </p>
-              <a class="card__button" href="#">Бронировать</a>
+              <div class="card__wrapper">
+                <p class="card__text">
+                  <span>Модель:</span>
+                  <a class="card__link" href="#">Bauer BG24H BG 24 H</a>
+                </p>
+                <p class="card__text">
+                  <span>ID:</span>
+                  <a class="card__link" href="#">32456</a>
+                </p>
+                <p class="card__text">
+                  <span>База:</span>
+                  Щербинка, МО
+                </p>
+                <p class="card__text card__text--bolded">
+                  Аренда: 15000 р./день
+                </p>
+                <a class="card__button button button--filled button--shadow" href="#">Бронировать</a>
+              </div>
             </li>
             <li class="ads__item card">
               <div class="card__image">
                 <img src="img/ads/1.jpg" width="206" height="143" alt="Bauer BG24H BG 24 H">
                 <span class="card__rating">5.7</span>
               </div>
-              <p class="card__text">
-                <span>Модель:</span>
-                <a class="card__link" href="#">Bauer BG24H BG 24 H</a>
-              </p>
-              <p class="card__text">
-                <span>ID:</span>
-                <a class="card__link" href="#">32456</a>
-              </p>
-              <p class="card__text">
-                <span>База:</span>
-                Щербинка, МО
-              </p>
-              <p class="card__text card__text--bolded">
-                Аренда: 15000 р./день
-              </p>
-              <a class="card__button" href="#">Бронировать</a>
+              <div class="card__wrapper">
+                <p class="card__text">
+                  <span>Модель:</span>
+                  <a class="card__link" href="#">Bauer BG24H BG 24 H</a>
+                </p>
+                <p class="card__text">
+                  <span>ID:</span>
+                  <a class="card__link" href="#">32456</a>
+                </p>
+                <p class="card__text">
+                  <span>База:</span>
+                  Щербинка, МО
+                </p>
+                <p class="card__text card__text--bolded">
+                  Аренда: 15000 р./день
+                </p>
+                <a class="card__button button button--filled button--shadow" href="#">Бронировать</a>
+              </div>
             </li>
             <li class="ads__item card">
               <div class="card__image">
                 <img src="img/ads/1.jpg" width="206" height="143" alt="Bauer BG24H BG 24 H">
                 <span class="card__rating">5.7</span>
               </div>
-              <p class="card__text">
-                <span>Модель:</span>
-                <a class="card__link" href="#">Bauer BG24H BG 24 H</a>
-              </p>
-              <p class="card__text">
-                <span>ID:</span>
-                <a class="card__link" href="#">32456</a>
-              </p>
-              <p class="card__text">
-                <span>База:</span>
-                Щербинка, МО
-              </p>
-              <p class="card__text card__text--bolded">
-                Аренда: 15000 р./день
-              </p>
-              <a class="card__button" href="#">Бронировать</a>
+              <div class="card__wrapper">
+                <p class="card__text">
+                  <span>Модель:</span>
+                  <a class="card__link" href="#">Bauer BG24H BG 24 H</a>
+                </p>
+                <p class="card__text">
+                  <span>ID:</span>
+                  <a class="card__link" href="#">32456</a>
+                </p>
+                <p class="card__text">
+                  <span>База:</span>
+                  Щербинка, МО
+                </p>
+                <p class="card__text card__text--bolded">
+                  Аренда: 15000 р./день
+                </p>
+                <a class="card__button button button--filled button--shadow" href="#">Бронировать</a>
+              </div>
             </li>
             <li class="ads__item card">
               <div class="card__image">
                 <img src="img/ads/1.jpg" width="206" height="143" alt="Bauer BG24H BG 24 H">
                 <span class="card__rating">5.7</span>
               </div>
-              <p class="card__text">
-                <span>Модель:</span>
-                <a class="card__link" href="#">Bauer BG24H BG 24 H</a>
-              </p>
-              <p class="card__text">
-                <span>ID:</span>
-                <a class="card__link" href="#">32456</a>
-              </p>
-              <p class="card__text">
-                <span>База:</span>
-                Щербинка, МО
-              </p>
-              <p class="card__text card__text--bolded">
-                Аренда: 15000 р./день
-              </p>
-              <a class="card__button" href="#">Бронировать</a>
+              <div class="card__wrapper">
+                <p class="card__text">
+                  <span>Модель:</span>
+                  <a class="card__link" href="#">Bauer BG24H BG 24 H</a>
+                </p>
+                <p class="card__text">
+                  <span>ID:</span>
+                  <a class="card__link" href="#">32456</a>
+                </p>
+                <p class="card__text">
+                  <span>База:</span>
+                  Щербинка, МО
+                </p>
+                <p class="card__text card__text--bolded">
+                  Аренда: 15000 р./день
+                </p>
+                <a class="card__button button button--filled button--shadow" href="#">Бронировать</a>
+              </div>
             </li>
             <li class="ads__item card">
               <div class="card__image">
                 <img src="img/ads/1.jpg" width="206" height="143" alt="Bauer BG24H BG 24 H">
                 <span class="card__rating">5.7</span>
               </div>
-              <p class="card__text">
-                <span>Модель:</span>
-                <a class="card__link" href="#">Bauer BG24H BG 24 H</a>
-              </p>
-              <p class="card__text">
-                <span>ID:</span>
-                <a class="card__link" href="#">32456</a>
-              </p>
-              <p class="card__text">
-                <span>База:</span>
-                Щербинка, МО
-              </p>
-              <p class="card__text card__text--bolded">
-                Аренда: 15000 р./день
-              </p>
-              <a class="card__button" href="#">Бронировать</a>
+              <div class="card__wrapper">
+                <p class="card__text">
+                  <span>Модель:</span>
+                  <a class="card__link" href="#">Bauer BG24H BG 24 H</a>
+                </p>
+                <p class="card__text">
+                  <span>ID:</span>
+                  <a class="card__link" href="#">32456</a>
+                </p>
+                <p class="card__text">
+                  <span>База:</span>
+                  Щербинка, МО
+                </p>
+                <p class="card__text card__text--bolded">
+                  Аренда: 15000 р./день
+                </p>
+                <a class="card__button button button--filled button--shadow" href="#">Бронировать</a>
+              </div>
             </li>
           </ul>
           <div class="ads__bottomline bottomline bottomline--centered">
@@ -480,7 +506,7 @@
           <h2 class="offers__title heading-primary">Выбор предложений по регионам РФ</h2>
           <div class="offers__wrapper">
             <span class="offers__label">Не нашли что искали?</span>
-            <button class="offers__add button button--add">Добавить запрос на технику</button>
+            <button class="offers__add button button--outlined button--add">Добавить запрос на технику</button>
           </div>
         </div>
         <form class="offers__form" action="#" method="POST">
@@ -583,34 +609,34 @@
       <div class="capability__container container">
         <div class="capability__topline topline">
           <h2 class="capability__title heading-primary">Ваши возможности с нами</h2>
-          <a class="capability__ad" href="#">Реклама на проекте</a>
+          <a class="capability__ad button button--outlined button--rocket" href="#">Реклама на проекте</a>
         </div>
         <ul class="capability__tabs tabs__list">
           <li class="capability__tab tabs__item">
-            <a class="capability__link tabs__link" href="#">Дилерам</a>
+            <a class="capability__link tabs__link tabs__link--current" href="#">Дилерам</a>
           </li>
           <li class="capability__tab tabs__item">
             <a class="capability__link tabs__link" href="#">Арендодателям</a>
           </li>
         </ul>
         <ul class="capability__list tabs__content">
-          <li class="capability__item">
+          <li class="capability__item capability__item--users">
             <h3 class="capability__name">1 миллион зарегистрированных пользователей</h3>
             <p class="capability__text">Donec ac lacus in nulla sodales sodales at ut magna. Proin eget pretium libero. Etiam suscipit quis dolor eleifend consectetur.</p>
           </li>
-          <li class="capability__item">
+          <li class="capability__item capability__item--hosts">
             <h3 class="capability__name">1234 посетителей сейчас на сайте</h3>
             <p class="capability__text">Donec ac lacus in nulla sodales sodales at ut magna. Proin eget pretium libero. Etiam suscipit quis dolor eleifend consectetur.</p>
           </li>
-          <li class="capability__item">
+          <li class="capability__item capability__item--lots">
             <h3 class="capability__name">123234 лотов на сайте</h3>
             <p class="capability__text">Donec ac lacus in nulla sodales sodales at ut magna. Proin eget pretium libero. Etiam suscipit quis dolor eleifend consectetur.</p>
           </li>
-          <li class="capability__item">
+          <li class="capability__item capability__item--contracts">
             <h3 class="capability__name">Более 400 сделок в час</h3>
             <p class="capability__text">Donec ac lacus in nulla sodales sodales at ut magna. Proin eget pretium libero. Etiam suscipit quis dolor eleifend consectetur.</p>
           </li>
-          <li class="capability__item">
+          <li class="capability__item capability__item--users">
             <h3 class="capability__name">1 миллион зарегистрированных пользователей</h3>
             <p class="capability__text">Donec ac lacus in nulla sodales sodales at ut magna. Proin eget pretium libero. Etiam suscipit quis dolor eleifend consectetur.</p>
           </li>
@@ -623,13 +649,13 @@
     <section class="subscription">
       <div class="subscription__container container">
         <h2 class="visually-hidden">Подпишитесь на нашу рассылку</h2>
-        <p class="subscription__text">Будьте всегда в курсе новых поступлений техники</p>
+        <p class="subscription__text">Будьте всегда в курсе<br><b>новых поступлений техники</b></p>
         <form class="subscription__form" action="#">
           <p class="subscription__item">
             <label class="visually-hidden" for="subscription-email">Укажите свой e-mail</label>
             <input class="subscription__input" id="subscription-email" type="text" name="subscription-email" placeholder="Укажите свой e-mail">
           </p>
-          <button class="subscription__subscribe button button--outlined">Подписаться</button>
+          <button class="subscription__subscribe button button--outlined-black-bg">Подписаться</button>
         </form>
       </div>
     </section>
@@ -815,7 +841,7 @@
           </div>
         </div>
         <p class="page-footer__text">1 829 878 предложений от 125 276 поставщиков.</p>
-        <p class="page-footer__text">Обновлено 07.06.2019 в 07:33 по московскому времени.</p>
+        <p class="page-footer__text">Обновлено 07.06.2019 в 07:33 по&nbsp;московскому&nbsp;времени.</p>
       </div>
       <div class="page-footer__social social">
         <p class="social__title heading-footer">Оставайтесь на связи</p>
@@ -847,10 +873,10 @@
       </div>
       <div class="page-footer__bottom">
         <a class="page-footer__logo">
-          <img class="page-footer__logo-image" src="img/logo-footer.svg" width="131" height="30" alt="Contechnics - аренда техники">
+          <img class="page-footer__logo-image" src="img/logo.svg" width="131" height="30" alt="Contechnics - аренда техники">
         </a>
         <p class="page-footer__copyright">
-          © 2019 CONTECHNICS - Портал строительной техники
+          © 2019 CONTECHNICS - <b>Портал строительной техники</b>
         </p>
         <div class="page-footer__links">
           <a class="page-footer__link" href="#">Политика конфиденциальности</a> |

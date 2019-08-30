@@ -2,6 +2,18 @@
   width: 736px;
 }
 
+.categories__title {
+  margin: 0;
+  margin-bottom: 21px;
+  padding: 0;
+  padding-top: 10px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
 .categories__list {
   @include reset-list;
 
@@ -11,12 +23,83 @@
 }
 
 .categories__item {
+  margin-top: 10px;
   margin-right: 32px;
-  margin-bottom: 32px;
+  margin-bottom: 55px;
 
   width: 160px;
 
   &:nth-child(4n) {
     margin-right: 0;
   }
+
+  &:focus .categories__name,
+  &:hover .categories__name {
+    color: #f1692b;
+  }
+}
+
+.categories__link {
+  position: relative;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 158px;
+    height: 120px;
+
+    background-image: url("../img/categories-bg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.categories__number {
+  position: absolute;
+
+  top: 96px;
+  left: 59px;
+
+  width: 40px;
+
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 700;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.categories__name {
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+  padding-top: 133px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: underline;
+  text-align: center;
+
+  color: $default-color;
+}
+
+.categories__link--pile-hammers .categories__name::before {
+  content: "";
+
+  position: absolute;
+  top: 18px;
+  left: calc(50% - 32px);
+
+  width: 64px;
+  height: 64px;
+
+  background-image: url("../img/icon-hammer-truck.svg");
 }

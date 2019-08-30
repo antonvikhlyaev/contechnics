@@ -11,5 +11,169 @@
   &--filled {
     color: #ffffff;
     background-color: $default-color;
+
+    &:focus,
+    &:hover {
+      background-color: #f1692b;
+      outline: none;
+    }
+
+    &:active {
+      background-color: #B04819;
+      outline: none;
+    }
   }
+
+  &--outlined {
+    padding: 5px 15px;
+
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #f1692b;
+
+    border: 1px solid #f1692b;
+
+    &:focus,
+    &:hover {
+      color: #ffffff;
+      border-color: #f1692b;
+      background-color: #f1692b;
+    }
+
+    &:active {
+      opacity: 0.7;
+    }
+  }
+
+  &--outlined-black-bg {
+    padding: 10px 32px;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+    background: none;
+
+    border: 1px solid #ffffff;
+
+    &:focus,
+    &:hover {
+      color: #f1692b;
+      border-color: #f1692b;
+    }
+
+    &:active {
+      color: #ffffff;
+      background-color: #f1692b;
+      border-color: #f1692b;
+    }
+  }
+
+  &--outlined-white-bg {
+    padding: 10px 40px;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+
+    color: $default-color;
+
+    background: none;
+
+    border: 1px solid $default-color;
+
+    &:focus,
+    &:hover {
+      color: #f1692b;
+      border-color: #f1692b;
+    }
+
+    &:active {
+      color: #ffffff;
+      background-color: #f1692b;
+      border-color: #f1692b;
+    }
+  }
+
+  &--shadow {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  &--add {
+    position: relative;
+
+    padding-left: 40px;
+
+    &::before {
+      content: "";
+
+      position: absolute;
+      top: 8px;
+      left: 18px;
+
+      width: 12px;
+      height: 12px;
+
+      background-image: url("../img/icon-plus.svg");
+    }
+
+    &:focus::before,
+    &:hover::before {
+      background-image: url("../img/icon-plus-white.svg");
+    }
+  }
+
+  &--like {
+    position: relative;
+
+    padding-left: 40px;
+
+    &::before {
+      content: "";
+
+      position: absolute;
+      top: 6px;
+      left: 16px;
+
+      width: 17px;
+      height: 16px;
+
+      background-image: url("../img/icon-like.svg");
+    }
+
+    &:focus::before,
+    &:hover::before {
+      background-image: url("../img/icon-like-white.svg");
+    }
+  }
+
+  &--rocket {
+    position: relative;
+
+    padding-left: 40px;
+
+    &::before {
+      content: "";
+
+      position: absolute;
+      top: 6px;
+      left: 16px;
+
+      width: 16px;
+      height: 16px;
+
+      background-image: url("../img/icon-rocket.svg");
+    }
+
+    &:focus::before,
+    &:hover::before {
+      background-image: url("../img/icon-rocket-white.svg");
+    }
+  }
+
 }

@@ -1,3 +1,7 @@
+.offers {
+  margin-bottom: 56px;
+}
+
 .offers__form {
   display: flex;
   flex-direction: row;
@@ -9,6 +13,21 @@
 
   display: flex;
   flex-direction: row;
+
+  margin-bottom: 22px;
+
+  font-size: 14px;
+  line-height: 20px;
+
+  & a {
+    text-decoration: underline;
+    color: #565656;
+
+    &:focus,
+    &:hover {
+      color: $default-color;
+    }
+  }
 }
 
 .offers__columns {
@@ -25,4 +44,52 @@
 
 .offers__sublist {
   @include reset-list;
+}
+
+.offers__label {
+  display: inline-block;
+
+  padding: 6px 15px;
+
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.offers__topline {
+  margin-bottom: 10px;
+}
+
+.offers__form {
+  margin-bottom: 10px;
+}
+
+.offers__field {
+
+  &--region {
+    width: 568px;
+  }
+
+  &--type {
+    width: 224px;
+  }
+
+  &--category {
+    width: 312px;
+  }
+}
+
+.offers__text {
+  margin: 0;
+  margin-bottom: 22px;
+  padding: 0;
+  padding-bottom: 8px;
+  font-size: 18px;
+  line-height: 30px;
+
+  border-bottom: 1px solid rgba(179, 189, 201, 0.5);
+}
+
+
+.offers__item {
+  margin-bottom: 6px;
 }
