@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -16,18 +18,17 @@ body {
 
   width: 100%;
 
-  font-family: 'PT Sans', sans-serif;
-
+  font-family: "PT Sans", sans-serif;
   color: $default-color;
 
-  background-color: #ffffff ;
+  background-color: #ffffff;
 }
 
 a {
-  text-decoration: none
+  text-decoration: none;
 }
 
 img {
   max-width: 100%;
-  height: auto
+  height: auto;
 }
