@@ -1,3 +1,7 @@
+.breadcrumbs {
+  margin-bottom: 20px;
+}
+
 .breadcrumbs__list {
   @include reset-list;
 
@@ -20,7 +24,9 @@
 
     color: #999999;
   }
+}
 
+.breadcrumbs__item--active {
   &:last-child .breadcrumbs__link {
     color: $default-color;
   }
