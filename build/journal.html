@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contechnics - аренда техники</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="inner-page">
+  <header class="page-header">
+    <div class="page-header__container container">
+      <a class="page-header__logo" href="index.html">
+        <img class="page-header__logo-image" src="img/logo.svg" width="171" height="40" alt="Contechnics - аренда техники">
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav__list site-nav">
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="#">Каталог</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="#">Журнал</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="#">Бизнесу</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="#">Маркет</a>
+          </li>
+        </ul>
+        <ul class="main-nav__list user-nav">
+          <li class="user-nav__item">
+            <a class="user-nav__link" href="#">Вход</a>
+          </li>
+          <li class="user-nav__item">
+            <a class="user-nav__link" href="#">Регистрация</a>
+          </li>
+          <li class="user-nav__item">
+            <a class="user-nav__link user-nav__link--search" href="#">
+              <span class="visually-hidden">Поиск</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="page-content">
+    <div class="container">
+      <div class="breadcrumbs">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="index.html">Главная</a>
+          </li>
+          <li class="breadcrumbs__item breadcrumbs__item--active">
+            <a class="breadcrumbs__link">Журнал индустрии</a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-content__columns">
+        <section class="journal tabs">
+          <div class="journal__topline topline">
+            <h1 class="journal__title heading-primary">Журнал индустрии</h1>
+            <button class="journal__subscribe button button--outlined button--like" type="button">Подписаться на журнал</button>
+          </div>
+          <div class="journal__columns">
+            <div class="journal__wrapper">
+              <ul class="journal__tabs tabs__list">
+                <li class="journal__tab tabs__item">
+                  <a class="journal__link journal__link--all tabs__link tabs__link--current" href="#">Все</a>
+                </li>
+                <li class="journal__tab tabs__item">
+                  <a class="journal__link journal__link--news tabs__link" href="#">Новости</a>
+                </li>
+                <li class="journal__tab tabs__item">
+                  <a class="journal__link journal__link--reviews tabs__link" href="#">Обзоры</a>
+                </li>
+                <li class="journal__tab tabs__item">
+                  <a class="journal__link journal__link--posts tabs__link" href="#">Статьи</a>
+                </li>
+              </ul>
+              <ul class="journal__hashtags">
+                <li class="journal__hashtag">
+                  <a class="journal__hashtag-link" href="#">Календарь выставок</a>
+                </li>
+                <li class="journal__hashtag">
+                  <a class="journal__hashtag-link" href="#">Новинки</a>
+                </li>
+                <li class="journal__hashtag">
+                  <a class="journal__hashtag-link" href="#">Актуально</a>
+                </li>
+                <li class="journal__hashtag">
+                  <a class="journal__hashtag-link" href="#">Главное</a>
+                </li>
+                <li class="journal__hashtag">
+                  <a class="journal__hashtag-link" href="#">Важно</a>
+                </li>
+              </ul>
+              <div class="journal__content tabs__content">
+                <ul class="journal__list">
+                  <li class="journal__item journal__item--wide journal__item--big">
+                    <a class="journal__news-link" href="journal-item.html">
+                      <img class="journal__image" src="img/news-1-bg.jpg" alt="">
+                      <div class="journal__container">
+                        <span class="journal__tag">Новости</span>
+                        <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов - погрузчиков Kamatsu</h3>
+                        <div class="journal__bottom">
+                          <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
+                          <span class="journal__comments">134</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="journal__item">
+                    <a class="journal__news-link" href="journal-item.html">
+                      <img class="journal__image" src="img/news-2.jpg" alt="">
+                      <div class="journal__container">
+                        <span class="journal__tag">Обзоры</span>
+                        <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов - погрузчиков Kamatsu</h3>
+                        <div class="journal__bottom">
+                          <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
+                          <span class="journal__comments">134</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="journal__item journal__item--no-image">
+                    <a class="journal__news-link" href="journal-item.html">
+                      <div class="journal__container">
+                        <span class="journal__tag">Статья</span>
+                        <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов - погрузчиков Kamatsu</h3>
+                        <div class="journal__bottom">
+                          <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
+                          <span class="journal__comments">134</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="journal__item journal__item--wide">
+                    <a class="journal__news-link" href="journal-item.html">
+                      <img class="journal__image" src="img/news-1-bg.jpg" alt="">
+                      <div class="journal__container">
+                        <span class="journal__tag">Новости</span>
+                        <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов - погрузчиков Kamatsu</h3>
+                        <div class="journal__bottom">
+                          <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
+                          <span class="journal__comments">134</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="journal__item">
+                    <a class="journal__news-link" href="journal-item.html">
+                      <img class="journal__image" src="img/news-2.jpg" alt="">
+                      <div class="journal__container">
+                        <span class="journal__tag">Обзоры</span>
+                        <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов - погрузчиков Kamatsu</h3>
+                        <div class="journal__bottom">
+                          <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
+                          <span class="journal__comments">134</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="journal__item journal__item--wide journal__item--big">
+                    <a class="journal__news-link" href="journal-item.html">
+                      <img class="journal__image" src="img/news-1-bg.jpg" alt="">
+                      <div class="journal__container">
+                        <span class="journal__tag">Новости</span>
+                        <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов - погрузчиков Kamatsu</h3>
+                        <div class="journal__bottom">
+                          <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
+                          <span class="journal__comments">134</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="journal__item">
+                    <a class="journal__news-link" href="journal-item.html">
+                      <img class="journal__image" src="img/news-2.jpg" alt="">
+                      <div class="journal__container">
+                        <span class="journal__tag">Обзоры</span>
+                        <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов - погрузчиков Kamatsu</h3>
+                        <div class="journal__bottom">
+                          <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
+                          <span class="journal__comments">134</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <div class="journal__items">
+                    <li class="journal__item journal__item--no-image journal__item--small">
+                      <a class="journal__news-link" href="journal-item.html">
+                        <div class="journal__container">
+                          <span class="journal__tag">Обзоры</span>
+                          <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов - погрузчиков Kamatsu</h3>
+                          <div class="journal__bottom">
+                            <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
+                            <span class="journal__comments">134</span>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="journal__item journal__item--no-image journal__item--small">
+                      <a class="journal__news-link" href="journal-item.html">
+                        <div class="journal__container">
+                          <span class="journal__tag">Обзоры</span>
+                          <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов - погрузчиков Kamatsu</h3>
+                          <div class="journal__bottom">
+                            <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
+                            <span class="journal__comments">134</span>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                  </div>
+                  <li class="journal__item">
+                    <a class="journal__news-link" href="journal-item.html">
+                      <img class="journal__image" src="img/news-2.jpg" alt="">
+                      <div class="journal__container">
+                        <span class="journal__tag">Обзоры</span>
+                        <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов - погрузчиков Kamatsu</h3>
+                        <div class="journal__bottom">
+                          <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
+                          <span class="journal__comments">134</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <div class="journal__bottomline bottomline bottomline--centered">
+                  <a class="journal__more" href="#">Показать еще</a>
+                </div>
+              </div>
+            </div>
+            <aside class="journal__sidebar">
+              <section class="journal__popular">
+                <p class="journal__popular-title">Популярное</p>
+                <ul class="journal__popular-list">
+                  <li class="journal__popular-item">
+                    <a class="journal__link" href="journal-item.html">
+                      <div class="journal__container journal__popular-container">
+                        <span class="journal__tag">Статья</span>
+                        <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов - погрузчиков Kamatsu</h3>
+                        <div class="journal__bottom">
+                          <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
+                          <span class="journal__comments">134</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="journal__popular-item">
+                    <a class="journal__link" href="journal-item.html">
+                      <div class="journal__container journal__popular-container">
+                        <span class="journal__tag">Статья</span>
+                        <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов - погрузчиков Kamatsu</h3>
+                        <div class="journal__bottom">
+                          <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
+                          <span class="journal__comments">134</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="journal__popular-item">
+                    <a class="journal__link" href="journal-item.html">
+                      <div class="journal__container journal__popular-container">
+                        <span class="journal__tag">Статья</span>
+                        <h3 class="journal__name">Новая линейка ELAZ BL880 экскаваторов - погрузчиков Kamatsu</h3>
+                        <div class="journal__bottom">
+                          <time class="journal__date" datetime="2019-02-04">04 февраля 2019</time>
+                          <span class="journal__comments">134</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </section>
+              <div class="journal__adv">Область для рекламы</div>
+              <div class="journal__adv">Область для рекламы</div>
+            </aside>
+          </div>
+        </section>
+      </div>
+    </div>
+    <section class="subscription">
+      <div class="subscription__container container">
+        <h2 class="visually-hidden">Подпишитесь на нашу рассылку</h2>
+        <p class="subscription__text">Будьте всегда в курсе<br><b>новых поступлений техники</b></p>
+        <form class="subscription__form" action="#">
+          <p class="subscription__item">
+            <label class="visually-hidden" for="subscription-email">Укажите свой e-mail</label>
+            <input class="subscription__input" id="subscription-email" type="text" name="subscription-email" placeholder="Укажите свой e-mail">
+          </p>
+          <button class="subscription__subscribe button button--outlined-black-bg">Подписаться</button>
+        </form>
+      </div>
+    </section>
+    <section class="catalog">
+      <div class="catalog__container container">
+        <h2 class="visually-hidden">Все категории техники</h2>
+        <ul class="catalog__list">
+          <li class="catalog__category">
+            <h3 class="catalog__title">Строительная техника</h3>
+            <ul class="catalog__sublist">
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Экскаваторы-погрузчики</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Экскаваторы</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Строительные погрузчики</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Бульдозеры</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Подъёмные краны</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Дорожно-строительная техника</a>
+              </li>
+            </ul>
+          </li>
+          <li class="catalog__category">
+            <h3 class="catalog__title">Коммерческий транспорт</h3>
+            <ul class="catalog__sublist">
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Грузовики</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Седельные тягачи</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Грузовые прицепы</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Полуприцепы</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Коммерческие автомобили</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Автобусы</a>
+              </li>
+            </ul>
+          </li>
+          <li class="catalog__category">
+            <h3 class="catalog__title">Лесотехника</h3>
+            <ul class="catalog__sublist">
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Харвестеры</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Форвардеры</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Лесозаготовительные комплекс</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Трелёвочные тракторы</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Лесопогрузчики</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Дорожно-строительная техника</a>
+              </li>
+            </ul>
+          </li>
+          <li class="catalog__category">
+            <h3 class="catalog__title">Сельхозтехника</h3>
+            <ul class="catalog__sublist">
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Сельскохозяйственные тракторы</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Оборудование для сельхозтехники</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Землеройные сельхозмашины</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Зерноуборочная техника</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Самоходная кормоуборочная техн</a>
+              </li>
+              <li class="catalog__item">
+                <a class="catalog__link" href="#">Машины для уборки сена</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="catalog__bottomline bottomline">
+          <a class="catalog__more" href="#">Все категории</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__container container">
+      <nav class="page-footer__nav footer-nav">
+        <div class="footer-nav__wrapper">
+          <p class="footer-nav__title heading-footer">Каталог</p>
+          <ul class="footer-nav__list">
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Каталог техники</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Каталог производителей</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Каталог поставщиков</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-nav__wrapper">
+          <p class="footer-nav__title heading-footer">Бизнесу</p>
+          <ul class="footer-nav__list">
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">О проекте</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Тарифы</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Реклама на сайте</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-nav__wrapper">
+          <p class="footer-nav__title heading-footer">Поддержка клиентов</p>
+          <ul class="footer-nav__list">
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">FAQ / Помощь</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Контакты</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Обратная связь</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Карта сайта</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-nav__wrapper">
+          <p class="footer-nav__title heading-footer">Журнал</p>
+          <ul class="footer-nav__list">
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Новости</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Обзоры</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Статьи</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Партнерский материал</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="page-footer__wrapper">
+        <div class="page-footer__apps apps">
+          <p class="apps__title heading-footer">Скачать приложение</p>
+          <div class="apps__links">
+            <a class="apps__link apps__link--ios" href="#">
+              <span class="visually-hidden">Перейти в Appstore</span>
+            </a>
+            <a class="apps__link apps__link--android" href="#">
+              <span class="visually-hidden">Перейти в Google Play</span>
+            </a>
+          </div>
+        </div>
+        <p class="page-footer__text">1 829 878 предложений от 125 276 поставщиков.</p>
+        <p class="page-footer__text">Обновлено 07.06.2019 в 07:33 по&nbsp;московскому&nbsp;времени.</p>
+      </div>
+      <div class="page-footer__social social">
+        <p class="social__title heading-footer">Оставайтесь на связи</p>
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="#">
+              <span class="visually-hidden">Мы в Фейсбуке</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--vk" href="#">
+              <span class="visually-hidden">Мы в ВКонтакте</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--twitter" href="#">
+              <span class="visually-hidden">Мы в Твиттере</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--instagram" href="#">
+              <span class="visually-hidden">Мы в Инстаграме</span>
+            </a>
+          </li>
+        </ul>
+        <p class="social__phone">
+          <a class="social__phone-link" href="#">8-800-800-00-00</a>
+        </p>
+      </div>
+      <div class="page-footer__bottom">
+        <a class="page-footer__logo">
+          <img class="page-footer__logo-image" src="img/logo.svg" width="131" height="30" alt="Contechnics - аренда техники">
+        </a>
+        <p class="page-footer__copyright">
+          © 2019 CONTECHNICS - <b>Портал строительной техники</b>
+        </p>
+        <div class="page-footer__links">
+          <a class="page-footer__link" href="#">Политика конфиденциальности</a> |
+          <a class="page-footer__link" href="#">Пользовательское соглашение</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
